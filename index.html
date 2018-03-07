@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Preloader</title>
+	<style type="text/css">
+
+	    body{overflow: hidden;}
+		.preloader 
+		{ 
+			position: fixed; 
+			left: 0; 
+			top: 0; 
+			z-index: 999; 
+			width: 100%; 
+			height: 100%; 
+			overflow: visible; 
+			background: #333 url('http://files.mimoymima.com/images/loading.gif') no-repeat center center; 
+		}
+		.preloader h3{
+			padding-top: 37%;
+            text-align: center;
+            color: #fff;
+		}
+
+		h1 {
+			text-align: center;
+		}
+		h5{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+
+	
+  <body>
+  	<!-- Html element start -->
+    <div class="preloader">
+    	<h3>Loading...........</h3>
+    </div>
+    
+    <h1>Preloader</h1>
+    <h5>Create this Md Enamul Haq</h5>
+    <p>Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.Some text  will be here.</p>
+    <!-- End Html e -->
+  </body>
+  
+
+
+	
+    <!-- Add Jquery Plugin -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- Start Preloader code -->
+	<script type="text/javascript">
+		$(window).on('load', function() {
+           $('.preloader').delay(500).fadeOut(500);
+		});
+	</script>
+
+</body>
+</html>
